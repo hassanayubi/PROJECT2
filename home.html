@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+  
+     <title>home</title>
+
+     <style>
+     body{
+     margin: 0%;
+     padding: 1%;
+     background-image: url(images/final.jpg);
+     background-size: cover;
+  background-position: center; 
+}
+        ul.topnav {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #000000;
+        }
+        
+        ul.topnav li {float: left;}
+        
+        ul.topnav li a {
+          display: block;
+          color: rgb(236, 236, 236);
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        ul.topnav li a:hover:not(.active) {background-color: #6c6464;}
+        
+        ul.topnav li a.active {background-color: #04AA6D;}
+        
+        ul.topnav li.right {float: right;}
+        
+        @media screen and (max-width: 600px) {
+          ul.topnav li.right, 
+          ul.topnav li {float: none;}
+        }
+       
+.container {
+    color: rgb(228, 227, 227);
+    text-align: center;
+    display: block;
+}
+
+.container h1 {
+    font-size: 75px;
+    color: rgb(32, 60, 55);
+}
+
+.container p {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.container ul {
+    color: rgb(10, 6, 105);
+    font-size: 35px;
+    font-style: italic;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 20%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 2px solid yellow;
+    background-color: green;
+    color: rgb(64, 70, 31);
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(99, 177, 93);
+    color: white;
+}
+
+
+aside {
+    width: 30%;
+    padding: 10px;
+    margin: 20px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+    border: 2.5px dotted darkolivegreen;
+    text-align: center;
+    animation-duration: 0s;
+}
+
+aside p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+aside span {
+    color: rgb(143, 30, 196);
+}
+
+@media screen and (max-width: 768px) {
+    .container h1 {
+        font-size: 50px;
+    }
+
+    .container p {
+        font-size: 20px;
+    }
+
+    .container ul {
+        font-size: 25px;
+    }
+
+    .home {
+        padding: 3px 10%;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 1.2rem;
+    }
+
+    aside {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container h1 {
+        font-size: 40px;
+    }
+
+    .container p {
+        font-size: 16px;
+    }
+
+    .container ul {
+        font-size: 20px;
+    }
+
+    .home {
+        padding: 3px 5%;
+    }
+
+    .btn {
+        padding: 6px 12px;
+        font-size: 1rem;
+    }
+}
+
+        </style>
+</head>
+<body>
+    
+  <ul class="topnav">
+    <li><a class="active" href="home.html">Home</a></li>
+    <li><a href="example.html">Example</a></li>
+    <li><a href="feature.html">Menu</li></a>
+    <li class="right">
+      <a href="sign in.html">Sign In</a></li> 
+  </ul>
+ 
+
+  <div class="container">
+    <h1>Food Website</h1>
+    <p><b>Let's make delicious dishes with me</b></p>
+    <ul>
+        ✓ Desi Food
+        <br>
+        ✓ Fast Food
+        <br>
+        ✓ Chinese Food
+        <br>
+        ✓ Italian Food
+    </ul>
+    <section id="home">
+        <button class="btn"><a href="feature.html">Order Please</a></button>
+    </section>
+</div>
+
+<aside>
+    <p>This food website made by <span style="color: rgb(143, 30, 196);">HASSAN AYUBI</span>. I used HTML and CSS.</p>
+</aside>
+
+</body>
+</html>
+ 
+</body>
+</html>

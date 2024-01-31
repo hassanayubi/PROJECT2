@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Menu</title>
+
+    <style>  
+       
+       body{
+     margin: 0%;
+     padding: 1%;
+     background-image: url(images/final.jpg);
+     background-size: cover;
+  background-position: center; 
+  box-sizing: border-box;
+}
+        ul.topnav {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #000000;
+        }
+        
+        ul.topnav li {float: left;}
+        
+        ul.topnav li a {
+          display: block;
+          color: rgb(236, 236, 236);
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        ul.topnav li a:hover:not(.active) {background-color: #6c6464;}
+        
+        ul.topnav li a.active {background-color: #04AA6D;}
+        
+        ul.topnav li.right {float: right;}
+        
+        @media screen and (max-width: 600px) {
+          ul.topnav li.right, 
+          ul.topnav li {float: none;}
+        }
+       
+
+.container {
+    background-image: url(images/foodbg.jpg);
+    background-size: cover;
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+}
+
+.container h1 {
+    font-size: 3em;
+    color: rgb(154, 188, 0);
+}
+
+.all-browsers {
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(192, 211, 165);
+    text-align: center;
+}
+
+.all-browsers > h1, .browser {
+    margin: 10px;
+    padding: 10px;
+}
+
+.browser {
+    background: rgb(73, 140, 67);
+}
+
+.browser > h1 {
+    margin: 10px;
+    font-size: 30px;
+    color: rgb(18, 40, 149);
+    font-style:  italic;
+}
+.browser > p{
+  font-size: 25px;
+  color: rgb(106, 5, 0);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #d3d60a;
+    color: #a71111;
+    
+}
+
+.footer > h5{
+  font-style: italic;
+  font-size: 25px;
+}
+
+        
+        </style>
+</head>
+<body>
+
+    <ul class="topnav">
+        <li><a class="active" href="home.html">Home</a></li>
+        <li><a href="example.html">Example</a></li>
+        <li><a href="feature.html">Menu</a></li>
+        <li class="right">
+          <a href="sign in.html">Sign In</a></li> 
+      </ul>
+     
+<br>
+
+
+      <div class="container">
+        <h1>OUR MENU</h1>
+    </div>
+    
+    <article class="all-browsers">
+        <h1>DEAL 1</h1>
+        <article class="browser">
+            <h1>Biryani</h1>
+            <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+            <img src="images/biryani img.webp" alt="Biryani">
+        </article>
+    
+        <article class="browser">
+            <h1>Pizza</h1>
+            <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+            <img src="images/pizza.img2.jpg" alt="Pizza">
+        </article>
+    
+        <article class="browser">
+            <h1>Burger</h1>
+            <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+            <img src="images/fastfood.img" alt="Burger">
+        </article>
+    </article>
+    
+    <hr>
+    
+    <article class="all-browsers">
+        <h1>DEAL 2</h1>
+        <article class="browser">
+            <h1>Pasta</h1>
+            <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+            <img src="images/cuison.img" alt="Pasta">
+        </article>
+    
+        <article class="browser">
+            <h1>Chinese Rice</h1>
+            <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+            <img src="images/chinese rice.img" alt="Chinese Rice">
+        </article>
+    
+        <article class="browser">
+            <h1>Qorma</h1>
+            <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+            <img src="images/qorma.jpg" alt="Qorma">
+        </article>
+    </article>
+    
+<footer class="footer">
+  <h5>
+    This food menu is created by Hassan Ayubi
+  </h5>
+</footer>
+
+</body>
+</html>
